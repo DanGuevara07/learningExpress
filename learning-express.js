@@ -8,17 +8,14 @@ app.get('/', (req, res) => {
 })
 
 app.post('/', (req, res) => {
-    res.status(201)
     res.send('Se recibio una solicitud POST')
   })
 
 app.put('/', (req, res) => {
-    res.status(201)
     res.send('Se recibio una solicitud PUT')
 })
 
 app.delete('/', (req, res) => {
-    res.status(201)
     res.send('Se recibio una solicitud DELETE')
 })
 
